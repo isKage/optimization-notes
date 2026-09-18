@@ -1,0 +1,60 @@
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+
+.DS_Store
+*/.DS_Store
+
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.gz
+*.cls
+*.bcf
+*.out
+*.xml
+*.toc
+*.xsim
+
+*.tex
+
+note-template/
+
+# 所有 Note 目录: 保留 pdf
+Note*/
+!Note*/
+Note*/*
+!Note*/*.pdf
+
+agent/
+
+Assignments/hw*/*
+!Assignments/hw*/*.pdf
